@@ -6,7 +6,7 @@ let regText = [stringReg, multipleLinesAnnotationReg, annotationReg].map(it => "
 let reg = new RegExp(regText, "g");
 
 function clearAnnotation(text: string) {
-    return text.replace(reg, ($$, $1) => $1 || "");
+    return text?.replace(reg, ($$, $1) => $1 || "");
 }
 
 let parseTemp = JSON.parse;

@@ -1,6 +1,6 @@
 {
   "name": "@frm/jsonc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JSON with comments polyfill",
   "main": "dist/index.js",
   "declare": "dist/index.d.ts",
